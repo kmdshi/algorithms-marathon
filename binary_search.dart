@@ -1,6 +1,6 @@
 int? binarySearch(int target, List<int> sortedArray) {
-  int low = 0;
   int high = sortedArray.length - 1;
+  int low = 0;
 
   while (low <= high) {
     int mid = (low + high) ~/ 2;
