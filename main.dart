@@ -1,5 +1,6 @@
 import 'binary_search.dart';
 import 'linked_list.dart';
+import 'quick_sort.dart';
 import 'selection_sort.dart';
 
 void main() {
@@ -25,4 +26,11 @@ void main() {
   b.nextNode = c;
 
   printList(head);
+
+  /// Quick sort representation
+
+  List<int> array3 = [1, 5, 2, 77, 10];
+  print(quickSort(array3));
+
+  
 }
